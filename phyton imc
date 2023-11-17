@@ -1,0 +1,21 @@
+
+persona = {"nombre":"Gabriel jairo",
+       "ap_materno":"Vasquez",
+       "ap_paterno":"Rodriguez",
+       "Edad":19,
+       "Altura":1.72,
+       "peso":90
+      }
+
+def nivel_de_peso(p_imc):
+    if p_imc < 18.5:
+        print("Bajo peso")
+    elif p_imc >= 18.5 and p_imc <= 24.9:
+        print("Normal")
+    elif p_imc >= 25.5 and p_imc <= 24.9:
+        print("Sobrepeso")
+    else:
+        print("Obesidad")
+        
+nivel_de_peso(persona_imc)
+    
